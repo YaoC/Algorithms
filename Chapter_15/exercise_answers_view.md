@@ -1,9 +1,9 @@
 # exercise 15
 ## 15.1-1
- ![image](https://github.com/YaoC/Algorithms/master/Pictures/15.1-1.png)
+ ![image](https://github.com/YaoC/Algorithms/raw/master/Pictures/15.1-1.png)
 
 ##15.1-2
- ![image](https://github.com/YaoC/Algorithms/master/Pictures/15.1-2.png)
+ ![image](https://github.com/YaoC/Algorithms/raw/master/Pictures/15.1-2.png)
 
 ## 15.1-3
 ```

@@ -1,33 +1,10 @@
 # exercise 15
 ## 15.1-1
-
-$T(n)=1+\sum_{j=0}^{n-1}T(j)$
-
-$\qquad=1+T(n-1)+\sum_{j=0}^{n-2}T(j)$
-
-$\qquad= 1+(1+\sum_{j=0}^{n-2})+\sum_{j=0}^{n-2}T(j)$
-
-$\qquad=2^{1}*(1+\sum_{j=0}^{n-2}T(j))$
-
-$\qquad=2^{2}*(1+\sum_{j=0}^{n-3}T(j))$
-
-$\qquad=2^{i-1}*(1+\sum_{j=0}^{n-i}T(j))$
-
-$When \quad i=n:$
-
-$T(n)=2^{n-1}*(1+T(0))$
-
-$\qquad =2^{n-1}*2$
-
-$\qquad = 2^{n}$
+ ![image](https://github.com/YaoC/Algorithms/master/Pictures/15.1-1.png)
 
 ##15.1-2
+ ![image](https://github.com/YaoC/Algorithms/master/Pictures/15.1-2.png)
 
-`动态规划算法：`
->$r_4 = 10$ ，切割方案 $4=2+2$
-
-`使用贪心算法:`
->$r_4=9$ ，切割方案 $4=3+1$
 ## 15.1-3
 ```
 CUT-ROD-WITH-COST(p,n)

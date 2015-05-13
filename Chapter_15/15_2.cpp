@@ -10,7 +10,6 @@
 
 void matrix_chain_order(int *p,int *m,int *s,int n)
 {
-	n--;	
 	for(int l=2;l<n+1;l++)//子问题矩阵链长度
 	{
 		for(int i=0;i<n-l+1;i++)
@@ -31,6 +30,20 @@ void matrix_chain_order(int *p,int *m,int *s,int n)
 	}
 }
 
+void print_optimal_parens(int *s,int i,int j,int n)
+{
+	using namespace std;
+	if(i==j)
+		cout<<"A"<<i;
+	else
+	{
+		cout<<"(";
+		int k = s[i*n+j];
+		print_optimal_parens(s,i,k,n);
+		print_optimal_parens(s,k+1,j,n);
+		cout<<")";
+	}
+}
 
 //Test
 int main()
@@ -40,6 +53,10 @@ int main()
 	int *m,*s;
 	m = new int[6*6];
 	s = new int[6*6];
-	matrix_chain_order(p,m,s,7);
-	cout<<m[0*6+5]<<endl;
+	matrix_chain_order(p,m,s,6);
+	cout<<"最少标量乘法运算次数为"<<m[0*6+5]<<"次"<<endl;
+	cout<<"括号化方案："<<endl;
+	print_optimal_parens(s,0,5,6);
+	cout<<endl;
+	return 0;
 }

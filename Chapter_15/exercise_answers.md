@@ -73,3 +73,26 @@ FIBONACCI(n)
 		f[i] = f[i-1] + f[i-2]
 	return f[n]
 ```
+
+## 15.2-1
+> 最少标量乘法运算次数为2010次
+> 括号化方案：
+> **((A0A1)((A2A3)(A4A5)))**
+
+## 15.2-3
+
+$假设当n>2时，P(n)\ge cn^2$
+
+$P(n+1)=\sum_{k=1}^{n}P(k)P(n+1-k)$
+
+$\qquad\qquad=P(1)P(n)+P(2)P(n-1)+...+P(n-1)P(2)+P(n)P(1)$
+
+$\qquad\qquad\ge2P(n)$
+
+$\qquad\qquad=2cn^2$
+
+$\qquad\qquad\ge c(n^2+2n+1)$
+
+$\qquad\qquad=c(n+1)^2$
+
+$故当n>2时，P(n)\ge cn^2成立，即\Omega(n^2)$

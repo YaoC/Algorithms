@@ -50,3 +50,12 @@ FIBONACCI(n)
 		f[i] = f[i-1] + f[i-2]
 	return f[n]
 ```
+
+## 15.2-1
+> 最少标量乘法运算次数为2010次
+> 括号化方案：
+> **((A0A1)((A2A3)(A4A5)))**
+
+## 15.2-3
+
+ ![image](https://github.com/YaoC/Algorithms/raw/master/Pictures/15.2-3.png)

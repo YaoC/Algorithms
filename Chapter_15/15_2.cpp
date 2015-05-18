@@ -49,7 +49,8 @@ void print_optimal_parens(int *s,int i,int j,int n)
 int main()
 {
 	using namespace std;
-	int p[] = {30,35,15,5,10,20,25};
+	//int p[] = {30,35,15,5,10,20,25};
+    int p[] = {5,10,3,12,5,50,6};
 	int *m,*s;
 	m = new int[6*6];
 	s = new int[6*6];

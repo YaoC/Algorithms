@@ -61,3 +61,6 @@ FIBONACCI(n)
 
 ## 15.2-4
  ![image](https://github.com/YaoC/Algorithms/raw/master/Pictures/15.2-4.png)
+
+## 15.2-5
+ ![image](https://github.com/YaoC/Algorithms/raw/master/Pictures/15.2-5.png) 

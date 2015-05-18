@@ -57,5 +57,7 @@ FIBONACCI(n)
 > **((A0A1)((A2A3)(A4A5)))**
 
 ## 15.2-3
-
  ![image](https://github.com/YaoC/Algorithms/raw/master/Pictures/15.2-3.png)
+
+## 15.2-4
+ ![image](https://github.com/YaoC/Algorithms/raw/master/Pictures/15.2-4.png)

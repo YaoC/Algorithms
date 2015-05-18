@@ -1,5 +1,5 @@
 /*************************************************************************
-	> File Name: MATRIX-CHAIN-ORDER.cpp
+	> File Name: 15_2.cpp
 	> Author:  YaoC 
 	> Mail:  chengyao09@hotmail.com 
 	> Created Time: 2015年05月13日 星期三 20时33分19秒
